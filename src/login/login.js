@@ -6,7 +6,6 @@ import Axios from 'axios'
 function Login() {
   const [login,setLogin]=useState('')
   const [password,setPassword]=useState('')
- const [d,setd]=useState(null)
 
 
 async function submit(){

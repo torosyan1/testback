@@ -13,7 +13,7 @@ route.post('/', async (req, res) => {
   let user = {};
   user.login = login
   user.pass = await bcrypt.hash(pass,salt);
-  user.data=new Date
+  user.data=new Date()
   let userModel = new User(user);
   await userModel.save();
   res.json(userModel);
