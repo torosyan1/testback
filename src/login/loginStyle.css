@@ -1,0 +1,85 @@
+.Login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: auto;
+    background-color: white !important;
+    padding: 50px;
+    box-shadow: 0 10px 6px -6px;
+    border-radius: 9px
+}
+.title h2{
+    text-align: center;
+    background-color: white;
+}
+.loginGroup{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+.loginInput{
+    border-radius: 6px;
+    background-color: white !important;
+    border: 1px solid #dadce0;
+    height: 34px;
+}
+
+.passwordGroup{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+.passwordInput{
+    border-radius: 6px;
+    background-color: white !important;
+    border: 1px solid #dadce0;
+    height: 34px;
+}
+.label{
+    background-color: white;
+}
+.saveUser input{
+    flex-direction: row;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
+.saveUser{
+    width: 100%;
+    background-color: white;
+}
+.saveUser label{
+    margin-left: 10px;
+    background-color: white;
+}
+.loginButton{
+    background-color: white;
+}
+.loginButton button{
+    background-color: #1C8EF9;
+    width: 100%;
+    border: 0;
+    color: white;
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px; 
+    cursor: pointer;
+}
+.forgot{
+    background-color: white;
+}
+.forgot a{
+    width: auto;
+    float: right;
+    background-color: white;
+    cursor: pointer;
+}
